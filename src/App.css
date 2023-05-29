@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #49384b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #f661fb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #4f2f47;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(228, 213, 222);
+  width: 450px;
+  padding: 20px 0;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+.tasks {
+  width: 400px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  background-color: #4f2f47;
+  padding: 0 15px;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 6px;
+}
+
+.task-info {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.7;
+}
+
+.task-name {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  text-align: left;
+  width: 89%;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.task-info .input-name {
+  display: flex;
+}
+
+.task-info .input-name p {
+  margin-left: 10px;
+}
+
+.category-icons, .task-priority {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  flex: 0.3;
+}
+
+.add-list {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.delete {
+ min-width: 45px;
+}
+
+.input-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  max-height: 30px;
+}
+
+.input-div label {
+  margin-right: 10px;
+}
+
+.input-div select,
+input {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.input-place{
+  width: 100%;
+}
+
+.btn {
+  color: white;
+  background-color: #4f2f47;
+  border: transparent;
+  border-radius: 3px;
+  padding: 5px 0;
+  border-radius: 6px;
+  height: 50px;
+  font-size: large;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
